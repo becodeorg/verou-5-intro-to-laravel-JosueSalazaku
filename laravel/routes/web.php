@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,12 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('posts');
-});
+// Using the index() method in the HomeController class 
+Route::get('/', [HomeController::class, 'index']); // PREFERRED WAY
 
-Route::get('post', function () {
-    return view('post', [
-        'post' => '<h1>Hello World!</h1>'
-    ]);
+// Not using any controllers, instead returning the view directly from the router file
+Route::get("/posts", function () {
+    return view("posts");
 });

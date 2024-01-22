@@ -15,7 +15,6 @@
     <a href="/post"><h1>Fan art 3 PAGE</h1></a>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae hic voluptas iste sapiente, perspiciatis ducimus. Nulla dolore hic esse recusandae. Est ipsum eius aperiam reprehenderit error quasi quia dolores facilis.</p>
     <br>
-    <a href="/post"><h1>Fan art 4 PAGE</h1></a>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel architecto unde deleniti veritatis tenetur quaerat quis necessitatibus aut, laborum ad fugiat, perferendis, molestias ipsa expedita id deserunt optio ipsum corrupti!</p>
+
 </body>
 </html>

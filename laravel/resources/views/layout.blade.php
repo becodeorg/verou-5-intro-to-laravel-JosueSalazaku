@@ -3,3 +3,4 @@
 <body>
     @yield('content')
 </body>
+ 

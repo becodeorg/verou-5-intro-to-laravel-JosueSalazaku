@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\SpeciesController;
+use App\Http\Controllers\FormController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,4 +27,8 @@ Route::get("/posts", function () {
 // Corrected route definition with a semicolon at the end
 Route::get("/species", function () {
     return view("species");
+});
+
+Route::get("/form", function () {
+    return view("form");
 });

@@ -1,29 +1,29 @@
 @extends('layout')
 
 @section('content')
-<main class="max-h-full bg-sky-200 flex flex-col justify-evenly">
-    <header class="p-5 mb-8 bg-slate-900 text-white "><ul class="flex flex-row justify-around ">
-        <li>Content</li>
-        <li>univers</li>
+<main class="h-screen bg-indigo-400 flex flex-col">
+    <header class="p-8 bg-slate-900 text-white text-xl ">
+        <ul class="flex flex-row justify-around ">
+        <li class="font-bold"><a href="{{"posts"}}">Xenopedia</a></li>
+        <li><a href="{{"species"}}">Species</a></li>
         <li>games</li>
     </ul></header>
 
-<a href="/post"><h1 class="mb-1">Subscribe for more info</h1></a>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, velit eaque. Laudantium deleniti vitae temporibus mollitia necessitatibus quibusdam cum, excepturi aliquam vero sint. Ad ea nobis assumenda molestiae magni perferendis!</p>
-    <br>
-    <a href="{{"posts"}}"> GO BACK </a>
+<article class=" mt-8 mx-20 mb-20">
+<p class="font-medium text-2xl">
+Welcome to Xenopedia, the premier online destination for extraterrestrial enthusiasts and cosmic researchers alike! At Xenopedia, we embark on a fascinating journey into the vast unknown, providing a comprehensive and ever-expanding compendium of alien species from across the cosmos.
+
+Our mission is to unravel the mysteries of the universe by documenting and categorizing the diverse life forms that inhabit the far reaches of space. From the methane-breathing inhabitants of gas giants to silicon-based entities thriving on desolate moons, Xenopedia strives to capture the richness and complexity of alien life in all its forms.
+
+Discover the extraordinary, the bizarre, and the utterly captivating as we delve into the depths of uncharted territories. Whether you are an aspiring astrobiologist, a science fiction enthusiast, or simply someone with a curious mind, Xenopedia invites you to contribute to our ever-growing repository of knowledge.    <br></p>
+<a href={{"form"}}><h1 class="mt-12 mb-12 font-extrabold text-xl">Subscribe for more info</h1></a>
+</article>
 
 
-<a href="/post"><h1>Fan art 2 PAGE</h1></a>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, velit eaque. Laudantium deleniti vitae temporibus mollitia necessitatibus quibusdam cum, excepturi aliquam vero sint. Ad ea nobis assumenda molestiae magni perferendis!</p>
-    <br>
-    <a href="/"> GO BACK </a>
 
-<a href="/post"><h1>Fan art 3 PAGE</h1></a>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, velit eaque. Laudantium deleniti vitae temporibus mollitia necessitatibus quibusdam cum, excepturi aliquam vero sint. Ad ea nobis assumenda molestiae magni perferendis!</p>
-    <br>
-    <a href="/"> GO BACK </a>
-    <footer class="bg-slate-900">Welcome to our universe</footer>
+
+
+    <footer class="bg-sky-800 text-white flex flex-row justify-center ">Welcome to our universe</footer>
     </main>
 @endsection
 

@@ -16,5 +16,6 @@ class HomeController extends Controller
 
         // Returning the "welcome.blade.php" file as a view.
         return view("welcome");
+        
     }
 }

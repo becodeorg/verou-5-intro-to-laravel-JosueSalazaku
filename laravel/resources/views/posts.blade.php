@@ -1,14 +1,13 @@
 @extends('layout')
 
 @section('content')
-<main class="h-screen bg-indigo-400 flex flex-col">
-    <header class="p-8 bg-slate-900 text-white text-xl ">
+<header class="p-8 bg-slate-900 text-white text-xl ">
         <ul class="flex flex-row justify-around ">
         <li class="font-bold"><a href="{{"posts"}}">Xenopedia</a></li>
         <li><a href="{{"species"}}">Species</a></li>
         <li>games</li>
     </ul></header>
-
+<main class="h-screen bg-indigo-400 flex flex-col justify-evenly">
 <article class=" mt-8 mx-20 mb-20">
 <p class="font-medium text-2xl">
 Welcome to Xenopedia, the premier online destination for extraterrestrial enthusiasts and cosmic researchers alike! At Xenopedia, we embark on a fascinating journey into the vast unknown, providing a comprehensive and ever-expanding compendium of alien species from across the cosmos.
@@ -23,7 +22,7 @@ Discover the extraordinary, the bizarre, and the utterly captivating as we delve
 
 
 
-    <footer class="bg-sky-800 text-white flex flex-row justify-center ">Welcome to our universe</footer>
+    <footer class="bg-sky-800 text-white flex flex-row justify-center align-bottom">Welcome to our universe</footer>
     </main>
 @endsection
 

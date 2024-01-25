@@ -1,62 +1,62 @@
 <?php
 $alienSpecies = [
     [
-        'name' => 'The Visitors (V)',
-        'type' => 'unknown',
+        'name' => 'The Visitors',
+        'type' => 'reptilian',
         'solar_system' => 'Alpha Centauri',
     ],
 
     [
-        'name' => 'The Monolith (2001: A Space Odyssey)',
+        'name' => 'The Monolith',
         'type' => 'unknown',
         'solar_system' => 'Zeta Reticuli',
     ],
 
     [
-        'name' => 'Vulcans (Star Trek)',
+        'name' => 'Vulcans',
         'type' => 'humanoid',
         'solar_system' => 'Vulcan System',
     ],
 
     [
-        'name' => 'Twi\'leks (Star Wars)',
+        'name' => 'Twi\'leks',
         'type' => 'humanoid',
         'solar_system' => 'Ryloth System',
     ],
 
     [
-        'name' => 'Predators (Predator)',
+        'name' => 'Xenomorphs',
         'type' => 'bipedal',
-        'solar_system' => 'Yautja Prime',
+        'solar_system' => 'Achilles System',
     ],
 
     [
-        'name' => 'Ewoks (Star Wars)',
+        'name' => 'Ewoks',
         'type' => 'bipedal',
         'solar_system' => 'Endor System',
     ],
 
     [
-        'name' => 'Tauntauns (Star Wars)',
+        'name' => 'Tauntauns',
         'type' => 'quadrupedal',
         'solar_system' => 'Hoth System',
     ],
 
     [
-        'name' => 'Hexapods (Arrival)',
+        'name' => 'Hexapods',
         'type' => 'quadrupedal',
         'solar_system' => 'Cancri System',
     ],
 
     [
-        'name' => 'Silurians (Doctor Who)',
-        'type' => 'lizard',
+        'name' => 'Silurians',
+        'type' => 'reptilian',
         'solar_system' => 'Earth',
     ],
 
     [
-        'name' => 'Yautja (Predator)',
-        'type' => 'lizard',
+        'name' => 'Yautja',
+        'type' => 'reptilian',
         'solar_system' => 'Yautja Prime',
     ],
 ];

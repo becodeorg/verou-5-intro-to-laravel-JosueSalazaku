@@ -1,7 +1,13 @@
-@vite('resources/css/app.css')
+@extends('layout')
 
-<main class="bg-indigo-400 flex flex-col h-screen">
-    <h1 class="text-8xl text-white flex justify-center">Xenopedia</h1>
-    <a href={{"posts"}} class="text-white text-xl font-bold">BIO</a>
-<hr>    <footer class="justify-end">footer in Welcome Page</footer>
-</main>
+
+
+@section('content')
+    <main class="min-h-screen bg-indigo-400 flex flex-col items-center justify-center">
+        <h1 class="text-8xl text-white">
+            <a href="{{ route('posts') }}">Xenopedia</a>
+        </h1>
+
+    </main>
+@endsection
+

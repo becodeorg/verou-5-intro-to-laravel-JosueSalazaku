@@ -12,12 +12,6 @@ Our mission is to unravel the mysteries of the universe by documenting and categ
 Discover the extraordinary, the bizarre, and the utterly captivating as we delve into the depths of uncharted territories. Whether you are an aspiring astrobiologist, a science fiction enthusiast, or simply someone with a curious mind, Xenopedia invites you to contribute to our ever-growing repository of knowledge.    <br></p>
 <a href={{"form"}}><h1 class="mt-12 mb-12 font-extrabold text-xl">Subscribe for more info</h1></a>
 </article>
-
-
-
-
-
-    <footer class="bg-sky-800 text-white flex flex-row justify-center align-bottom">Welcome to our universe</footer>
     </main>
 @endsection
 
